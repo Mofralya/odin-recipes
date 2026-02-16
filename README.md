@@ -11,3 +11,9 @@ This project is part of the Odin Project's Foundations course. It is a basic rec
 . Directory Management organizing project files and assets into a clean folder structure.
 
 . Git/GitHub Workflow managing a local repository and syncing progress to a remote host.
+
+### Image Credits and Disclaimer
+
+* **Source**: All recipe images were sourced from [Pixabay](https://pixabay.com/).
+* **Purpose**: This project is for **Educational/Learning purpose only**.
+* **Usage**: None of the content or images are intended for cormmercial or business use.
