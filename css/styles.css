@@ -1,5 +1,6 @@
-::before,
-::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -9,11 +10,18 @@
 }
 
 body {
-    background-color: #0daee3;
+    background-color: #520e0e;
     font-family: "Oswald", sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+body a {
+    color: #777;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.2rem;
 }
 
 main {
@@ -30,6 +38,7 @@ main {
 
 .recipe-image h1 {
     text-align: center;
+    color: #f4f1f1;
 }
 
 
@@ -58,7 +67,7 @@ div h1 {
 
 .link-class a {
     text-decoration: none;
-    color: #a704a7;
+    color: #777;
     font-size: 1.5rem;
 }
 
@@ -67,15 +76,46 @@ ul li {
     margin: 15px;
 }
 
+/* Recipe page */
+.recipe-class,
+.desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc h1, h2 {
+    color: #f4f1f1;
+    margin: 20px;
+}
+
+.desc p {
+    color: #777;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin: 10px;
+}
+
+.desc li {
+    color: #777;
+    list-style-type: none;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+
+
+
+/* Footer */
 footer {
     text-align: center;
-    background-color: #fe8080;
+    background-color: #520e0e;
     padding: 10px;
     margin: 20px;
     color: white;
 }
 
 footer a {
-    color: #a704a7;
+    color: #777;
     text-decoration: none;
 }
