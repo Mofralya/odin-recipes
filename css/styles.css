@@ -104,7 +104,11 @@ ul li {
     line-height: 1.6rem;
 }
 
-
+.desc ul {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: center;
+}
 
 /* Footer */
 footer {
