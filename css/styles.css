@@ -9,8 +9,39 @@
 }
 
 body {
-    background-color: #bc95e0;
+    background-color: #0daee3;
     font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.picm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.recipe-image h1 {
+    text-align: center;
+}
+
+
+.recipe-image img {
+     width: 400px;
+     height: auto;
+     border-radius: 12px;
+}
+
+div h1 {
+    margin: 20px;
+    display: block;
 }
 
 .proH {
@@ -18,4 +49,33 @@ body {
     color: #f4f1f1;
     margin-top: 20px;
     text-transform: uppercase;
+}
+
+.link-class {
+    text-align: center;
+    margin: 20px;
+}
+
+.link-class a {
+    text-decoration: none;
+    color: #a704a7;
+    font-size: 1.5rem;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #fe8080;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+}
+
+footer a {
+    color: #a704a7;
+    text-decoration: none;
 }
